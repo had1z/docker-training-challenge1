@@ -19,4 +19,9 @@ public class Challenge1Controller {
 
         return "Hello Stranger";
     }
+
+    @GetMapping("/author")
+    String author() {
+        return "Hadi Zahedian";
+    }
 }
