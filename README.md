@@ -1,5 +1,9 @@
 # Challenge 1
-This project has 3 HTTP endpoints:
+
+### Run the project
+`docker-compose up`: It will download dependencies, build the project and start the container which by default listens on port `8080`.
+
+### Endpoints
 
 1. `GET` `/hello`
 2. `GET` `/hello?name={NAME}` - NAME is a string parameter

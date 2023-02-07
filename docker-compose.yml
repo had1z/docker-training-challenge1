@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  challenge1:
+    build:
+      context: .
+    ports:
+      - "8080:8080"
